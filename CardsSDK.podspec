@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.platform          = :ios, '11.0'
   s.ios.frameworks    = 'Foundation', 'UIKit'
   s.ios.vendored_frameworks = 'CardsSDK.xcframework'
-  s.dependency 'AlCore', '$version.alcore'
+  s.dependency 'AlCore', '0.9.0'
 end
