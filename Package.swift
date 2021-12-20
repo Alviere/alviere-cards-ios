@@ -13,8 +13,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CardsSDK",
-            url: "https://github.com/Alviere/alviere-cards-ios/releases/download/0.9.2/CardsSDK.xcframework.zip",
-            checksum: "83a41b2ee3908e614dd4c3c985e70da9370d7d099d934bdc60a8fd3b209069fa"
+            url: "https://github.com/Alviere/alviere-cards-ios/releases/download/0.9.3/CardsSDK.xcframework.zip",
+            checksum: "b22be64fdc43a4a75bd31d1bbe83f48b3124cf0fde6980bcd7d9823b4db91efe"
         )
     ]
 )
