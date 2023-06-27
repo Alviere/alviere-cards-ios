@@ -5,6 +5,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.9.23] 2023-06-27
+
+### Added
+- Added method to reissue/replace cards.
+
+### Changed
+- Change merchant id data type from `Int` to `String`.
+
+
 ## [0.9.21] 2023-03-31
 
 ### Changed

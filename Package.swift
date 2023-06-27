@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
@@ -18,7 +18,7 @@ let package = Package(
         .package(
             name: "AlCore",
             url: "https://github.com/Alviere/alviere-core-ios.git",
-            .exact("0.9.21")
+            .exact("0.9.23")
         )
     ],
     targets: [
@@ -32,8 +32,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "CardsSDK",
-            url: "https://github.com/Alviere/alviere-cards-ios/releases/download/0.9.21/CardsSDK.xcframework.zip",
-            checksum: "a5c2efdcdeff08a083d61a2ff458b79f80c4fe109a927a0006195b0206b228e0"
+            url: "https://github.com/Alviere/alviere-cards-ios/releases/download/0.9.23/CardsSDK.xcframework.zip",
+            checksum: "76fc54613f6fe297045f55bde17dca8677c020bc7858ddef350ea58230cfc1dc"
         )
     ]
 )
